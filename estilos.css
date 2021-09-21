@@ -1,0 +1,83 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; 
+   scroll-snap-type: y mandatory;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+   font-family: 'krub', sans-serif;
+  }
+
+body{
+    font-size: 16px;
+    background-color: rgba(217, 248, 252, 0.966);
+}
+
+.presentacion{
+    background-color: rgb(10, 15, 36);
+    margin-bottom: 4%;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+    border: white 3px solid;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.grid{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.funcion{
+    margin-top: 5rem;
+    left: 30%;
+    background-color:rgb(229, 226, 226);
+    width: 40rem;
+    padding: 8px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(19, 18, 18);
+    box-shadow: black 3px;
+}
+
+#id-archivo{
+    width: 30rem;
+    left: 35%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding-bottom: 1 rem;
+    padding-top: 1rem;
+    margin: 1rem;
+}
+
+.texto{
+    background-color: white;
+    height: auto;
+    width: 85%;
+    position: relative;
+    left: 8%;
+    border-radius: 5px;
+    border: 1px solid rgb(19, 18, 18);
+}
+
+#contenido{ 
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.boton{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;  
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
